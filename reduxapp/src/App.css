@@ -1,0 +1,44 @@
+.App {
+  
+  height: 100vh;
+  width :100vw;
+  background-color: rgb(168, 173, 182);
+  display: grid;
+  place-items: center;
+
+}
+
+.App_container{
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 234, 237);
+  border-radius:12px ;
+  padding: 32px 0; 
+}
+.App_todoContainer{
+  flex: 1px;
+  width:100%;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.todoItem{
+  display :flex;
+  align-items: center;
+  width:300px ;
+  background-color: white;
+  margin :6px 4px;
+  height :40px;
+  border-radius:12px;
+
+ }
+ .todoItem>p{
+  flex:1;
+ }
+ .todoItem--done{
+  text-decoration :line-through;
+ }
